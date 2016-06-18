@@ -1,5 +1,5 @@
 function [ ACCURACY,SENSITIVITY,SPECIFICITY ] = performClassification( DATA_TRAIN,LABELS_TRAIN,DATA_TEST,LABELS_TEST,genesForClassification,geneID_MRMR,geneID_F_statistic,geneID_RELIEFF,geneID_LassoTemporal,geneID_TMRMR_C,geneID_TMRMR_M)
-
+rng(0)
 noOfPatient_train=size(DATA_TRAIN,3);
 noOfPatient_test=size(DATA_TEST,3);
 nestedKFold=5;
