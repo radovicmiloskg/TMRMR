@@ -6,4 +6,8 @@ File geneSelection_KFold.m can be use to reproduce results from the paper. Resul
 
 File TMRMR.m can be used to perform TMRMR-C and TMRMR-M feature selection. Results are written in the folder RESULTS.
 
+File GeneSelection.m can be used to perform feature selection by mRMR, F-statistic, RELIEFF, MT-LASSO, TMRMR-C and TMRMR-M algorithms. Results are written in the folder RESULTS.
+
+
+
 
